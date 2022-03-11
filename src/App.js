@@ -5,7 +5,9 @@ import UsingStateHook from './components/UseStateHook';
 import UsingrefHook from './components/UsingrefHook';
 import FuncA from './components/UserContextHook/FuncA';
 import Context, {UserProvider} from './components/UserContextHook/ContextApi';
-import USingCallBackHook from './components/USingCallBackHook';
+import Main from './components/UsecakbackHook/Main';
+import DataFetch from './components/FetchingApiwithUseEffect/DataFetch';
+
 
 
 
@@ -13,15 +15,16 @@ function App() {
   
   return (
     <div className="App">
-      {/* <Props  name="Ayesha Razzaq"/>
+     {/* <Props  name="Ayesha Razzaq"/>
       <UsingStateHook />
        <UsingrefHook />
-
+ 
       <Context.Provider  value="Ayesha Razzaq">
       <FuncA />
-      </Context.Provider> */}
-
-      <USingCallBackHook />
+      </Context.Provider> 
+       <Main /> */}
+       <DataFetch />
+    
     
      
       
